@@ -1,0 +1,8 @@
+# Ignore data folder
+data
+
+### Ignore all nii files
+*.nii
+
+### Ignore all pkl files
+*.pkl
