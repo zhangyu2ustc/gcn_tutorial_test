@@ -2,7 +2,7 @@ matplotlib==2.1.2
 nibabel==2.2.1
 nilearn==0.4.0
 numpy==1.14.1
-pandas==0.21.0
+pandas==0.21.3
 scikit-learn==0.21.3
 scipy==1.0.0
 seaborn==0.8.1
