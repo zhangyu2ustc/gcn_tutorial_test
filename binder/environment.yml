@@ -1,10 +1,10 @@
 name: graphnet
 channels:
- - conda-forge
  - pytorch
 dependencies:
   - pytorch
   - torchvision
+  - cpuonly
   - pip=19.3.1
   - pip:
     - matplotlib==2.1.2
