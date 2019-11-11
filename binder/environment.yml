@@ -1,4 +1,4 @@
-name: brainiak-tutorials
+name: graphnet
 dependencies:
   - pip:
     - matplotlib==2.1.2
