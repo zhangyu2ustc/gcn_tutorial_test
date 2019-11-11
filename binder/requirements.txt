@@ -1,7 +1,7 @@
 matplotlib==2.1.2
 nibabel==2.2.1
 nilearn==0.4.0
-numpy=1.14.1
+numpy==1.14.1
 pandas==0.21.0
 scikit-learn==0.19.1
 scipy==1.0.0
