@@ -6,13 +6,13 @@ dependencies:
   - pytorch
   - torchvision
   - cpuonly
-  - numpy=1.14.1
-  - nibabel=2.2.1
-  - nilearn=0.4.0
-  - pandas=0.21.0
-  - scikit-learn=0.21.3
-  - scipy=1.0.0
-  - seaborn=0.8.1
+  - numpy
+  - nibabel
+  - nilearn
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
   - pip=19.3.1 
   - pip:
     - torch-cluster==1.3.0
