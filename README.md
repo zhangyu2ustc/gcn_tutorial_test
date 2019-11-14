@@ -1,4 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ltetrel/gcn_tutorial_test/master)
+neurolibre : [![Binder](http://binder-wksh2.conp.cloud/badge_logo.svg)](http://binder-wksh2.conp.cloud/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
+public binder : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
 
 # gcn_tutorial
 this tutorial covers the basics of graph laplacian and graph convolutional networks and how to apply these tools to neuroimging data
