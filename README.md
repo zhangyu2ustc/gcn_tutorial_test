@@ -1,7 +1,7 @@
 neurolibre : [![Binder](http://binder-wksh2.conp.cloud/badge_logo.svg)](http://binder-wksh2.conp.cloud/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
 public binder : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
 
-# gcn_tutorial
+# GCN_tutorial
 this tutorial covers the basics of graph laplacian and graph convolutional networks and how to apply these tools to neuroimging data
 
 ## Introduction
@@ -15,12 +15,12 @@ Brain graphs provide a relatively simple way of modeling the human brain connect
 git clone https://github.com/zhangyu2ustc/gcn_tutorial_test.git
 ``` 
 
-    Or Click the link to [binder](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F) in your browser
+ Or Click the link to [binder](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F) in your browser
 
 
 ### Check the notebook 
-    Go to notebook folder and find the .ipynb [notebook](https://github.com/zhangyu2ustc/gcn_tutorial_test/blob/master/notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb)
-    Note: It could take a while for the binder to build the enviornment (around 5 minutes). Be patient !  
+ Go to notebook folder and find the .ipynb [notebook](https://github.com/zhangyu2ustc/gcn_tutorial_test/blob/master/notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb)
+ Note: It could take a while for the binder to build the enviornment (around 5 minutes). Be patient !  
 
 
 ### check the presentation slides here: [GCN_tutorial_slides](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing)
