@@ -2,7 +2,7 @@ neurolibre : [![Binder](http://binder-wksh2.conp.cloud/badge_logo.svg)](http://b
 public binder : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
 
 # GCN_tutorial
-this tutorial covers the basics of **graph laplacian** and **graph convolutional networks** and how to apply these tools to neuroimging data
+this tutorial covers the basics of _**graph laplacian**_ and _**graph convolutional networks**_ and how to apply these tools to neuroimging data
 
 ## Introduction
 Brain graphs provide a relatively simple way of modeling the human brain connectome, by associating nodes with brain regions, and defining edges via anatomical or functional connections. 
@@ -13,7 +13,7 @@ This method has gained more and more attention in neuroscience studies, for inst
 > Recently, graph convolutional networks (GCN) was proposed, which combines the graph Laplacian theory with deep learning architectures by extending convolution operations onto the graph domain. 
 > This approach has shown some promising findings in neuroscience applications, for instance parcellating brain areas and detecting alterations in AD and Autism. 
 
-> In our recent study, we applied GCN to annotate the spatiotemporal dynamics of brain dynamics of human cognitive functions using a short series of fMRI volumes. 
+> In our recent study, we applied GCN[1,2] to annotate the spatiotemporal dynamics of brain dynamics of human cognitive functions using a short series of fMRI volumes. 
 I will use this as a case study to illustrate how to apply GCN to brain imaging.
 
 ## Slides
@@ -22,12 +22,16 @@ I will use this as a case study to illustrate how to apply GCN to brain imaging.
 ## References
 <a id="1">[1]</a> Zhang, Yu, and Pierre Bellec. "Functional Decoding using Convolutional Networks on Brain Graphs." 2019 Conference on Cognitive Computational Neuroscience, Berlin, Germany [PDF](https://ccneuro.org/2019/proceedings/0001137.pdf)
 
+<a id="2">[2]</a> Zhang, Yu, and Pierre Bellec. "Functional Annotation of Human Cognitive States using Graph Convolution Networks." 2019 Conference on Neural Information Processing Systems (NeurIPS) Neuro-AI workshop - Real Neurons & Hidden Units, Vancouver, Canada [PDF](https://openreview.net/pdf?id=HJenmmF8Ir)
+
+
+
 ## Code
  * ```notebooks``` includes all the functions and modules you need for this tutorial
 
  * ```notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb``` the main notebook
 
- * ```notebooks/model.py``` contains the model definition, including fully-connected, 1stGCN and ChebyNet
+ * ```notebooks/model.py``` contains the model definition, including fully-connected, 1stGCN [1] and ChebyNet [2]
 
  * ```notebooks/utils.py``` contains helpful functions
 
