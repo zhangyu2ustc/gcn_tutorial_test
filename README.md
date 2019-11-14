@@ -18,6 +18,8 @@ I will use this as a case study to illustrate how to apply GCN to brain imaging.
 
 
 
+\
+\
 
 ## Code
  * ```notebooks``` includes all the functions and modules you need for this tutorial
@@ -47,6 +49,9 @@ git clone https://github.com/zhangyu2ustc/gcn_tutorial_test.git
 
 
 
+
+\
+\
 ## Slides
  check the presentation slides here: [GCN_tutorial_slides](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing)
 
