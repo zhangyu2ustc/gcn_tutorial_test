@@ -13,7 +13,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from torch_sparse import spmm
+from utils import spmm
 from torch_scatter import scatter_add
 from torch_geometric.utils import add_self_loops
 
