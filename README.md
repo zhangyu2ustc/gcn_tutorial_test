@@ -15,35 +15,36 @@ This method has gained more and more attention in neuroscience studies, for inst
 > In our recent study, we applied GCN to annotate the spatiotemporal dynamics of brain dynamics of human cognitive functions using a short series of fMRI volumes. 
 I will use this as a case study to illustrate how to apply GCN to brain imaging.
 
+## Slides
+ check the presentation slides here: [GCN_tutorial_slides](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing)
+
 ## References
 <a id="1">[1]</a> Zhang, Yu, and Pierre Bellec. "Functional Decoding using Convolutional Networks on Brain Graphs." 2019 Conference on Cognitive Computational Neuroscience, Berlin, Germany [PDF](https://ccneuro.org/2019/proceedings/0001137.pdf)
 
 ## Code
->```notebooks``` includes all the functions and modules you need for this tutorial
+ * ```notebooks``` includes all the functions and modules you need for this tutorial
 
->```notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb``` the main notebook
+ * ```notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb``` the main notebook
 
->```notebooks/model.py``` contains the model definition, including fully-connected, 1stGCN and ChebyNet
+ * ```notebooks/model.py``` contains the model definition, including fully-connected, 1stGCN and ChebyNet
 
->```notebooks/utils.py``` contains helpful functions
+ * ```notebooks/utils.py``` contains helpful functions
 
 ## Setup
 ### Prepare the environment
-> You could either clone the git-repo or directly using the enviorment prebuild through binder
+ You could either clone the **github repo** or directly using the enviorment prebuild through **binder**
 
->>    open a terminal and type:
+  * open a terminal and type:
 ```
 git clone https://github.com/zhangyu2ustc/gcn_tutorial_test.git
 ``` 
 
-> Or Click the link to [binder](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F) in your browser
+ * Or Click the link to [binder](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F) in your browser
 
 
 ### Check the notebook 
-> Go to notebook folder and find the .ipynb [notebook](https://github.com/zhangyu2ustc/gcn_tutorial_test/blob/master/notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb)
+  Go to notebook folder and find the .ipynb [notebook](https://github.com/zhangyu2ustc/gcn_tutorial_test/blob/master/notebooks/Tutorials_GCN_practice2_graph-Laplacian_GCN.ipynb)
 
-> Note: It could take a while for the binder to build the enviornment (around 5 minutes). Be patient !  
+  Note: It could take a while for the binder to build the enviornment (around 5 minutes). Be patient !  
 
-
-### check the presentation slides here: [GCN_tutorial_slides](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing)
 
