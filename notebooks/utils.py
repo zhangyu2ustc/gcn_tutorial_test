@@ -16,7 +16,7 @@ from sklearn import preprocessing
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torch_scatter import scatter_add
-from torch_geometric.utils import maybe_num_nodes
+##from torch_geometric.utils import maybe_num_nodes
 
 def spmm(index, value, m, matrix):
     """Matrix product of sparse matrix with dense matrix.
@@ -41,6 +41,9 @@ def spmm(index, value, m, matrix):
 
 
 ##use the old add_self_loop function from pytorch-geometric
+def maybe_num_nodes(index, num_nodes=None):
+    return index.max().item() + 1 if num_nodes is None else num_nodes
+
 def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
     r"""Adds a self-loop :math:`(i,i) \in \mathcal{E}` to every node
     :math:`i \in \mathcal{V}` in the graph given by :attr:`edge_index`.
