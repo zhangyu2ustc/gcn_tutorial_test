@@ -16,7 +16,7 @@ from sklearn import preprocessing
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torch_scatter import scatter_add
-
+from torch_geometric.utils import maybe_num_nodes
 
 def spmm(index, value, m, matrix):
     """Matrix product of sparse matrix with dense matrix.
