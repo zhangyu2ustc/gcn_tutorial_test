@@ -15,7 +15,9 @@ import torch.optim as optim
 
 from utils import spmm
 from torch_scatter import scatter_add
-from torch_geometric.utils import add_self_loops
+##from torch_geometric.utils import add_self_loops
+from utils import add_self_loops
+
 
 class FCN(nn.Module):
 ###fully-connected

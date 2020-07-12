@@ -39,6 +39,44 @@ def spmm(index, value, m, matrix):
 
     return out
 
+
+##use the old add_self_loop function from pytorch-geometric
+def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
+    r"""Adds a self-loop :math:`(i,i) \in \mathcal{E}` to every node
+    :math:`i \in \mathcal{V}` in the graph given by :attr:`edge_index`.
+    In case the graph is weighted, all existent self-loops will be removed and
+    replaced by weights denoted by :obj:`fill_value`.
+
+    Args:
+        edge_index (LongTensor): The edge indices.
+        edge_weight (Tensor, optional): One-dimensional edge weights.
+            (default: :obj:`None`)
+        fill_value (int, optional): If :obj:`edge_weight` is not :obj:`None`,
+            will add self-loops with edge weights of :obj:`fill_value` to the
+            graph. (default: :obj:`1`)
+        num_nodes (int, optional): The number of nodes, *i.e.*
+            :obj:`max_val + 1` of :attr:`edge_index`. (default: :obj:`None`)
+
+    :rtype: (:class:`LongTensor`, :class:`Tensor`)
+    """
+    num_nodes = maybe_num_nodes(edge_index, num_nodes)
+
+    loop_index = torch.arange(0,
+                              num_nodes,
+                              dtype=torch.long,
+                              device=edge_index.device)
+    loop_index = loop_index.unsqueeze(0).repeat(2, 1)
+
+    if edge_weight is not None:
+        assert edge_weight.numel() == edge_index.size(1)
+        loop_weight = edge_weight.new_full((num_nodes, ), fill_value)
+        edge_weight = torch.cat([edge_weight, loop_weight], dim=0)
+
+    edge_index = torch.cat([edge_index, loop_index], dim=1)
+
+    return edge_index, edge_weight
+
+
 def extract_event_data(events_all_subjects_file,Trial_Num=None):
     ### loading event designs
     if not Trial_Num:
