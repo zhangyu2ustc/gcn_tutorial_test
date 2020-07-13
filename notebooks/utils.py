@@ -116,7 +116,9 @@ def load_fmri_data_from_lmdb(lmdb_filename,fmri_files=None,fmri_data_clean=None,
     ##lmdb_filename = pathout + modality + "_MMP_ROI_act_1200R_test_Dec2018_ALL.lmdb"
     ## read lmdb matrix
     import lmdb
-    from tensorpack.utils.serialize import loads_msgpack as loads
+    #from tensorpack.utils.serialize import loads_msgpack as loads
+    from serialize import loads_msgpack as loads
+    help(loads)
     print('loading data from file: %s' % lmdb_filename)
     matrix_dict = []
     fmri_sub_name = []
