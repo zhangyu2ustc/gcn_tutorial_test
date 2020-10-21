@@ -60,5 +60,5 @@ git clone https://github.com/zhangyu2ustc/gcn_tutorial_test.git
 
 <a id="2">[2]</a> Zhang, Yu, and Pierre Bellec. "Functional Annotation of Human Cognitive States using Graph Convolution Networks." 2019 Conference on Neural Information Processing Systems (NeurIPS) Neuro-AI workshop - Real Neurons & Hidden Units, Vancouver, Canada [PDF](https://openreview.net/pdf?id=HJenmmF8Ir)
 
-<a id="3">[3]</a> Yu Zhang, Loïc Tetrel, Bertrand Thirion, and Pierre Bellec."Functional Annotation of Human Cognitive States using Deep Graph Convolution". Biorxiv.  [PDF] (https://www.biorxiv.org/content/10.1101/2020.04.24.060657v1)
+<a id="3">[3]</a> Yu Zhang, Loïc Tetrel, Bertrand Thirion, and Pierre Bellec."Functional Annotation of Human Cognitive States using Deep Graph Convolution". Biorxiv.  [PDF](https://www.biorxiv.org/content/10.1101/2020.04.24.060657v1)
 
