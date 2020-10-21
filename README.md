@@ -53,12 +53,12 @@ git clone https://github.com/zhangyu2ustc/gcn_tutorial_test.git
 \
 \
 ## Slides
- check the presentation slides here: [GCN_tutorial_slides @MAIN 2019](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing) [GCN_tutorial_slides @OHBM 2020](https://drive.google.com/file/d/19HCTaE_xCCgp9LXL01Y2Bwl886stwVRm/view?usp=sharing)
+ check the presentation slides here: GCN_tutorial_slides [@MAIN 2019](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing) [@OHBM 2020](https://drive.google.com/file/d/19HCTaE_xCCgp9LXL01Y2Bwl886stwVRm/view?usp=sharing)
 
 ## References
 <a id="1">[1]</a> Zhang, Yu, and Pierre Bellec. "Functional Decoding using Convolutional Networks on Brain Graphs." 2019 Conference on Cognitive Computational Neuroscience, Berlin, Germany [PDF](https://ccneuro.org/2019/proceedings/0001137.pdf)
 
 <a id="2">[2]</a> Zhang, Yu, and Pierre Bellec. "Functional Annotation of Human Cognitive States using Graph Convolution Networks." 2019 Conference on Neural Information Processing Systems (NeurIPS) Neuro-AI workshop - Real Neurons & Hidden Units, Vancouver, Canada [PDF](https://openreview.net/pdf?id=HJenmmF8Ir)
 
-<a id="3">[3]</a> Yu Zhang,Loïc Tetrel,Bertrand Thirion,Pierre Bellec."Functional Annotation of Human Cognitive States using Deep Graph Convolution". Biorxiv [PDF] (https://www.biorxiv.org/content/10.1101/2020.04.24.060657v1)
+<a id="3">[3]</a> Yu Zhang,Loïc Tetrel,Bertrand Thirion,Pierre Bellec."Functional Annotation of Human Cognitive States using Deep Graph Convolution". Biorxiv.  [PDF] (https://www.biorxiv.org/content/10.1101/2020.04.24.060657v1 )
 
