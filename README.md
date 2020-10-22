@@ -53,7 +53,7 @@ git clone https://github.com/zhangyu2ustc/gcn_tutorial_test.git
 \
 \
 ## Slides
- check the presentation slides here: GCN_tutorial_slides [@MAIN 2019](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing)    [@OHBM 2020](https://drive.google.com/file/d/19HCTaE_xCCgp9LXL01Y2Bwl886stwVRm/view?usp=sharing)
+ check the presentation slides here: GCN_tutorial_slides [@MAIN 2019](https://drive.google.com/file/d/1Gu28WcHXlwjXQSSmqZZwIcESHff_j-J4/view?usp=sharing)    [@OHBM 2020](https://drive.google.com/file/d/1mBl_nKBRm1peIu3ouz6kqkMlWJpJQw6V/view?usp=sharing)
 
 ## References
 <a id="1">[1]</a> Zhang, Yu, and Pierre Bellec. "Functional Decoding using Convolutional Networks on Brain Graphs." 2019 Conference on Cognitive Computational Neuroscience, Berlin, Germany [PDF](https://ccneuro.org/2019/proceedings/0001137.pdf)
