@@ -180,7 +180,7 @@ class ChebConv(nn.Module):
             out = out + torch.matmul(Tx_1, self.weight[1])
 
         for k in range(2, K):
-            Tx_2 = 2 * spmm(edge_index, lap, num_nodes, x.permute(1, 2, 0).contiguous().view((num_nodes, -1))).view((num_nodes, -1, batch)).permute(2,0,1) - Tx_0
+            Tx_2 = 2 * spmm(edge_index, lap, num_nodes, Tx_1.permute(1, 2, 0).contiguous().view((num_nodes, -1))).view((num_nodes, -1, batch)).permute(2,0,1) - Tx_0
             # 2 * spmm(edge_index, lap, num_nodes, Tx_1) - Tx_0
             out = out + torch.matmul(Tx_2, self.weight[k])
             Tx_0, Tx_1 = Tx_1, Tx_2
