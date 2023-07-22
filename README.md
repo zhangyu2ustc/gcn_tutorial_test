@@ -6,6 +6,7 @@ this tutorial covers the basics of _**graph laplacian**_ and _**graph convolutio
 
 ## Introduction
 Brain graphs provide a relatively simple way of modeling the human brain connectome, by associating nodes with brain regions, and defining edges via anatomical or functional connections. 
+![Optimizing brain graphs and GNN for brain decoding](data/脑图谱的选择与解码.png)
 #### Graph Laplacian
 > Based on this architecture, a non-linear embedding tool, called graph Laplacian, can be used to project the high dimensional brain activities onto subspaces of the graph Laplacian eigenbasis.
 This method has gained more and more attention in neuroscience studies, for instance identifying functional areas and networks, generating connectivity gradients and harmonics, and even predicting atrophy patterns of dementia. 
